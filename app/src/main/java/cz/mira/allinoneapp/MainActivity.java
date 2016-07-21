@@ -136,7 +136,7 @@ public class MainActivity extends AppCompatActivity {
                 case 1:
                     return "Stopwatch";
                 case 2:
-                    return "Tachometer";
+                    return "Statistics";
             }
             return null;
         }
