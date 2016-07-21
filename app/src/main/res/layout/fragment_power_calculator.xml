@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="cz.mira.allinoneapp.MainActivity$PlaceholderFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="Power calculator"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/etKW"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnKW"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KW to HP!" />
+
+    <TextView
+        android:id="@+id/tvKW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Horse"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/etHorse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnHorse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HP to KW" />
+
+    <TextView
+        android:id="@+id/tvHorse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KW"
+        android:textSize="25dp" />
+
+</LinearLayout>
